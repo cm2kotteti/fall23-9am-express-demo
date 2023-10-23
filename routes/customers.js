@@ -6,7 +6,7 @@ router.get('/', (req, res) => {
 })
 
 router.get('/add', (req, res) => {
-    res.send('New customer added')
+    res.send('New customer added. We gonna see the update on the live deployed web service.')
 })
 
 module.exports = router
